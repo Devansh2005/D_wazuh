@@ -159,6 +159,7 @@ main()
         done
         $ECHO "  (${LG}) [en]: "
         read USER_LG;
+        #comment
 
         if [ "X${USER_LG}" = "X" ]; then
             USER_LG="en"
